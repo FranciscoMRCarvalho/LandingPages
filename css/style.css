@@ -1,0 +1,139 @@
+body {
+    font-family: Roboto; 
+    padding: 0;
+    margin: 0;   
+}
+
+.flex-container {
+    display: flex;
+    padding: 5%;
+}
+
+.flex-container .column {
+    width: 50%;
+    justify-content: space-between;
+}
+
+.flex-container div {
+    height: auto;
+    align-self: center;
+}
+
+.flex-container a {
+    text-align: right;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero .maintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondarytext {
+    font-size: 18px;
+    color: #67686b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.hero .logotext {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote .Box {
+    padding: 10px 5px;
+    margin: 0;
+}
+
+.quote .placeholder {
+    background-color: darkgray;
+    align-content: center;
+    text-align: center;
+    color: white;
+    width: 500px;
+    height: 300px;
+}
+
+.quote .secondarytext {
+    font-weight: bolder;
+}
+
+.button-color {
+    background-color: #3882F6;
+}
+
+.InformationHeader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.InformationBox .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.InformationBox .flex-container .Box {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    align-self: center;
+    margin:0px auto
+}
+
+.InformationBox .flex-container .Box p {
+    margin:0px auto;
+    text-align: center;
+}
+
+button {
+    padding: 5px 15px;
+    border-radius: 10%;
+    border: 1px solid 3882F6;
+    color: white;
+    background-color: #3882F6;
+}
+
+.footer p {
+    padding: 30px 10px;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.Motive {
+    background-color: #3882F6;
+    color: white;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.Motive .flex-container {
+    text-align: center;    
+}
+
+.Motive button {
+    border-color: #F9FAF8;
+}
